@@ -120,7 +120,7 @@ const HospitalDoctor = () => {
           </div>
           <p className="text-red-700 mb-4">Need immediate medical attention?</p>
           <button className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition-colors">
-            Call 911
+            Call 112
           </button>
         </div>
       </div>

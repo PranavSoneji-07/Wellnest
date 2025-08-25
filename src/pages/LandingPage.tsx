@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, FileText, MapPin, Clock, Star, ArrowRight, Check } from 'lucide-react';
-
+import family from '../components/assets/Family.jpg'
+import old_man from '../components/assets/old_man.webp'
 const LandingPage = () => {
   const features = [
     {
@@ -74,7 +75,7 @@ const LandingPage = () => {
             
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg"
+                src={family}
                 alt="Healthcare professional using digital technology"
                 className="rounded-2xl shadow-2xl"
               />
@@ -123,7 +124,7 @@ const LandingPage = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg"
+                src={old_man}
                 alt="Medical professional reviewing patient data"
                 className="rounded-2xl shadow-xl"
               />
