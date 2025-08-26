@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, FileText, MapPin, Clock, Star, ArrowRight, Check } from 'lucide-react';
-import family from '../components/assets/Family.jpg'
-import old_man from '../components/assets/old_man.webp'
+import family from '../assets/Family.jpg'
+import old_man from '../assets/old_man.webp'
 const LandingPage = () => {
   const features = [
     {
